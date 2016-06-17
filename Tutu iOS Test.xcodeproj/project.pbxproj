@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A20433CAA25F26C73033773 /* Pods_Tutu_iOS_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308A9725942E83E50DDA01C4 /* Pods_Tutu_iOS_TestTests.framework */; };
+		332D63EAB1846B10042F2A94 /* Pods_Tutu_iOS_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3D9A6F428C06AAB4DF0C1 /* Pods_Tutu_iOS_TestUITests.framework */; };
+		996BE92B1D119C6D00819E27 /* GZ_CitiesParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE92A1D119C6D00819E27 /* GZ_CitiesParsingOperation.swift */; };
+		996BE9331D11B33D00819E27 /* GZ_CitiesFromParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9321D11B33D00819E27 /* GZ_CitiesFromParsingOperation.swift */; };
+		996BE9351D11B44F00819E27 /* GZ_CitiesToParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9341D11B44F00819E27 /* GZ_CitiesToParsingOperation.swift */; };
+		996BE9371D11B88200819E27 /* GZ_EntryDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9361D11B88200819E27 /* GZ_EntryDialogViewController.swift */; };
+		996BE9391D11BC4B00819E27 /* GZ_StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9381D11BC4B00819E27 /* GZ_StationsTableViewController.swift */; };
+		996BE93B1D11BC9800819E27 /* GZ_StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE93A1D11BC9800819E27 /* GZ_StationDetailViewController.swift */; };
+		996BE93E1D11BE0400819E27 /* GZ_StationsTableViewStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE93D1D11BE0400819E27 /* GZ_StationsTableViewStack.swift */; };
+		996BE9411D11BF2D00819E27 /* GZ_StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996BE9401D11BF2D00819E27 /* GZ_StationTableViewCell.xib */; };
+		996BE9441D11C6F800819E27 /* GZ_UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9431D11C6F800819E27 /* GZ_UserRequest.swift */; };
+		996BE9461D11EBDA00819E27 /* GZ_StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9451D11EBDA00819E27 /* GZ_StationTableViewCell.swift */; };
+		996BE94B1D11F23800819E27 /* GZ_CityHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996BE94A1D11F23800819E27 /* GZ_CityHeaderView.xib */; };
+		996BE94D1D11F31300819E27 /* GZ_CityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE94C1D11F31300819E27 /* GZ_CityHeaderView.swift */; };
+		996BE94F1D11F46E00819E27 /* GZ_CountryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996BE94E1D11F46E00819E27 /* GZ_CountryHeaderView.xib */; };
+		996BE9511D11F4C600819E27 /* GZ_CountryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9501D11F4C600819E27 /* GZ_CountryHeaderView.swift */; };
+		99A59D8F1D121642000A9467 /* citiesFrom.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A59D8D1D121642000A9467 /* citiesFrom.json */; };
+		99A59D901D121642000A9467 /* citiesTo.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A59D8E1D121642000A9467 /* citiesTo.json */; };
+		99A59D931D131C3B000A9467 /* GZ_MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D921D131C3B000A9467 /* GZ_MapPin.swift */; };
+		99A59D951D132301000A9467 /* GZ_Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D941D132301000A9467 /* GZ_Const.swift */; };
+		99A59D991D133223000A9467 /* GZ_UserCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D981D133223000A9467 /* GZ_UserCommit.swift */; };
+		99A59D9C1D13327A000A9467 /* GZ_UserCommitFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D9B1D13327A000A9467 /* GZ_UserCommitFabric.swift */; };
+		99A59D9E1D1334D8000A9467 /* GZ_CommitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D9D1D1334D8000A9467 /* GZ_CommitManager.swift */; };
+		99A59DA01D133D05000A9467 /* GZ_CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D9F1D133D05000A9467 /* GZ_CalendarUtils.swift */; };
+		99A59DA31D135488000A9467 /* GZ_DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59DA21D135488000A9467 /* GZ_DatePickerViewController.swift */; };
+		99A65D2B1D115C5200769B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D2A1D115C5200769B34 /* AppDelegate.swift */; };
+		99A65D301D115C5200769B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A65D2E1D115C5200769B34 /* Main.storyboard */; };
+		99A65D331D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D311D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld */; };
+		99A65D351D115C5200769B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A65D341D115C5200769B34 /* Assets.xcassets */; };
+		99A65D381D115C5200769B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A65D361D115C5200769B34 /* LaunchScreen.storyboard */; };
+		99A65D431D115C5200769B34 /* Tutu_iOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */; };
+		99A65D4E1D115C5200769B34 /* Tutu_iOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D4D1D115C5200769B34 /* Tutu_iOS_TestUITests.swift */; };
+		99A65D661D1183BF00769B34 /* GZ_City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D651D1183BF00769B34 /* GZ_City.swift */; };
+		99A65D681D11848700769B34 /* GZ_Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D671D11848700769B34 /* GZ_Station.swift */; };
+		99A65D6A1D11853400769B34 /* GZ_CityFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D691D11853400769B34 /* GZ_CityFabric.swift */; };
+		99A65D6C1D1186B800769B34 /* GZ_StationFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D6B1D1186B800769B34 /* GZ_StationFabric.swift */; };
+		99A65D6E1D11882F00769B34 /* GZ_CityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D6D1D11882F00769B34 /* GZ_CityManager.swift */; };
+		99A65D701D118B5F00769B34 /* GZ_DATA_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D6F1D118B5F00769B34 /* GZ_DATA_WRAPPER.swift */; };
+		EFB77805A85228985B006CD7 /* Pods_Tutu_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C115C5874289A95E5784553F /* Pods_Tutu_iOS_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99A65D3F1D115C5200769B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A65D1F1D115C5200769B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A65D261D115C5200769B34;
+			remoteInfo = "Tutu iOS Test";
+		};
+		99A65D4A1D115C5200769B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A65D1F1D115C5200769B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A65D261D115C5200769B34;
+			remoteInfo = "Tutu iOS Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308A9725942E83E50DDA01C4 /* Pods_Tutu_iOS_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394419813BC1AB7FF4B8C63A /* Pods-Tutu iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		5658091DB05B04125FA89FC9 /* Pods-Tutu iOS TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS TestUITests/Pods-Tutu iOS TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C1249B143B795E763ABF1CE /* Pods-Tutu iOS TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CF3D9A6F428C06AAB4DF0C1 /* Pods_Tutu_iOS_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		996BE92A1D119C6D00819E27 /* GZ_CitiesParsingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CitiesParsingOperation.swift; sourceTree = "<group>"; };
+		996BE9321D11B33D00819E27 /* GZ_CitiesFromParsingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CitiesFromParsingOperation.swift; sourceTree = "<group>"; };
+		996BE9341D11B44F00819E27 /* GZ_CitiesToParsingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CitiesToParsingOperation.swift; sourceTree = "<group>"; };
+		996BE9361D11B88200819E27 /* GZ_EntryDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_EntryDialogViewController.swift; sourceTree = "<group>"; };
+		996BE9381D11BC4B00819E27 /* GZ_StationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationsTableViewController.swift; sourceTree = "<group>"; };
+		996BE93A1D11BC9800819E27 /* GZ_StationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationDetailViewController.swift; sourceTree = "<group>"; };
+		996BE93D1D11BE0400819E27 /* GZ_StationsTableViewStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationsTableViewStack.swift; sourceTree = "<group>"; };
+		996BE9401D11BF2D00819E27 /* GZ_StationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZ_StationTableViewCell.xib; sourceTree = "<group>"; };
+		996BE9431D11C6F800819E27 /* GZ_UserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_UserRequest.swift; sourceTree = "<group>"; };
+		996BE9451D11EBDA00819E27 /* GZ_StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationTableViewCell.swift; sourceTree = "<group>"; };
+		996BE94A1D11F23800819E27 /* GZ_CityHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZ_CityHeaderView.xib; sourceTree = "<group>"; };
+		996BE94C1D11F31300819E27 /* GZ_CityHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CityHeaderView.swift; sourceTree = "<group>"; };
+		996BE94E1D11F46E00819E27 /* GZ_CountryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZ_CountryHeaderView.xib; sourceTree = "<group>"; };
+		996BE9501D11F4C600819E27 /* GZ_CountryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CountryHeaderView.swift; sourceTree = "<group>"; };
+		99A59D8D1D121642000A9467 /* citiesFrom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = citiesFrom.json; path = data/citiesFrom.json; sourceTree = "<group>"; };
+		99A59D8E1D121642000A9467 /* citiesTo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = citiesTo.json; path = data/citiesTo.json; sourceTree = "<group>"; };
+		99A59D921D131C3B000A9467 /* GZ_MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_MapPin.swift; sourceTree = "<group>"; };
+		99A59D941D132301000A9467 /* GZ_Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_Const.swift; sourceTree = "<group>"; };
+		99A59D981D133223000A9467 /* GZ_UserCommit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_UserCommit.swift; sourceTree = "<group>"; };
+		99A59D9B1D13327A000A9467 /* GZ_UserCommitFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_UserCommitFabric.swift; sourceTree = "<group>"; };
+		99A59D9D1D1334D8000A9467 /* GZ_CommitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CommitManager.swift; sourceTree = "<group>"; };
+		99A59D9F1D133D05000A9467 /* GZ_CalendarUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CalendarUtils.swift; sourceTree = "<group>"; };
+		99A59DA21D135488000A9467 /* GZ_DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_DatePickerViewController.swift; sourceTree = "<group>"; };
+		99A65D271D115C5200769B34 /* Tutu iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutu iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A65D2A1D115C5200769B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99A65D2F1D115C5200769B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A65D321D115C5200769B34 /* Tutu_iOS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tutu_iOS_Test.xcdatamodel; sourceTree = "<group>"; };
+		99A65D341D115C5200769B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A65D371D115C5200769B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A65D391D115C5200769B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A65D3E1D115C5200769B34 /* Tutu iOS TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutu iOS TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutu_iOS_TestTests.swift; sourceTree = "<group>"; };
+		99A65D441D115C5200769B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A65D491D115C5200769B34 /* Tutu iOS TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutu iOS TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A65D4D1D115C5200769B34 /* Tutu_iOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutu_iOS_TestUITests.swift; sourceTree = "<group>"; };
+		99A65D4F1D115C5200769B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A65D651D1183BF00769B34 /* GZ_City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_City.swift; sourceTree = "<group>"; };
+		99A65D671D11848700769B34 /* GZ_Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_Station.swift; sourceTree = "<group>"; };
+		99A65D691D11853400769B34 /* GZ_CityFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CityFabric.swift; sourceTree = "<group>"; };
+		99A65D6B1D1186B800769B34 /* GZ_StationFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationFabric.swift; sourceTree = "<group>"; };
+		99A65D6D1D11882F00769B34 /* GZ_CityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CityManager.swift; sourceTree = "<group>"; };
+		99A65D6F1D118B5F00769B34 /* GZ_DATA_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_DATA_WRAPPER.swift; sourceTree = "<group>"; };
+		99F653991D11FFA80028F745 /* Tutu iOS Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutu iOS Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FB9823EC10FC19E6D9BAB22 /* Pods-Tutu iOS TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS TestUITests/Pods-Tutu iOS TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA84A181A03022512CA5F6FD /* Pods-Tutu iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		C115C5874289A95E5784553F /* Pods_Tutu_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1897148099661AF44162609 /* Pods-Tutu iOS TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutu iOS TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A65D241D115C5200769B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB77805A85228985B006CD7 /* Pods_Tutu_iOS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D3B1D115C5200769B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A20433CAA25F26C73033773 /* Pods_Tutu_iOS_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D461D115C5200769B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332D63EAB1846B10042F2A94 /* Pods_Tutu_iOS_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		996BE92C1D11A45500819E27 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9311D11A59F00819E27 /* source */,
+				99A65D5B1D1167C100769B34 /* model */,
+				99A65D711D118B6B00769B34 /* manipulation */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		996BE9311D11A59F00819E27 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				99A59D8D1D121642000A9467 /* citiesFrom.json */,
+				99A59D8E1D121642000A9467 /* citiesTo.json */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		996BE93C1D11BDCD00819E27 /* stations list */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9381D11BC4B00819E27 /* GZ_StationsTableViewController.swift */,
+				996BE93D1D11BE0400819E27 /* GZ_StationsTableViewStack.swift */,
+			);
+			name = "stations list";
+			sourceTree = "<group>";
+		};
+		996BE93F1D11BF0D00819E27 /* station cell */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9401D11BF2D00819E27 /* GZ_StationTableViewCell.xib */,
+				996BE9451D11EBDA00819E27 /* GZ_StationTableViewCell.swift */,
+			);
+			name = "station cell";
+			sourceTree = "<group>";
+		};
+		996BE9421D11C6DD00819E27 /* GZ_UserRequest */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9431D11C6F800819E27 /* GZ_UserRequest.swift */,
+			);
+			name = GZ_UserRequest;
+			sourceTree = "<group>";
+		};
+		996BE9471D11F1D000819E27 /* stations list headers */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9491D11F1FD00819E27 /* country header */,
+				996BE9481D11F1F100819E27 /* city header */,
+			);
+			name = "stations list headers";
+			sourceTree = "<group>";
+		};
+		996BE9481D11F1F100819E27 /* city header */ = {
+			isa = PBXGroup;
+			children = (
+				996BE94A1D11F23800819E27 /* GZ_CityHeaderView.xib */,
+				996BE94C1D11F31300819E27 /* GZ_CityHeaderView.swift */,
+			);
+			name = "city header";
+			sourceTree = "<group>";
+		};
+		996BE9491D11F1FD00819E27 /* country header */ = {
+			isa = PBXGroup;
+			children = (
+				996BE94E1D11F46E00819E27 /* GZ_CountryHeaderView.xib */,
+				996BE9501D11F4C600819E27 /* GZ_CountryHeaderView.swift */,
+			);
+			name = "country header";
+			sourceTree = "<group>";
+		};
+		99A59D911D131C1D000A9467 /* GZ_MapPin */ = {
+			isa = PBXGroup;
+			children = (
+				99A59D921D131C3B000A9467 /* GZ_MapPin.swift */,
+			);
+			name = GZ_MapPin;
+			sourceTree = "<group>";
+		};
+		99A59D961D132FD0000A9467 /* entry dialog */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9361D11B88200819E27 /* GZ_EntryDialogViewController.swift */,
+			);
+			name = "entry dialog";
+			sourceTree = "<group>";
+		};
+		99A59D971D132FD9000A9467 /* station detail */ = {
+			isa = PBXGroup;
+			children = (
+				996BE93A1D11BC9800819E27 /* GZ_StationDetailViewController.swift */,
+			);
+			name = "station detail";
+			sourceTree = "<group>";
+		};
+		99A59D9A1D13322A000A9467 /* GZ_UserCommit */ = {
+			isa = PBXGroup;
+			children = (
+				99A59D981D133223000A9467 /* GZ_UserCommit.swift */,
+				99A59D9B1D13327A000A9467 /* GZ_UserCommitFabric.swift */,
+			);
+			name = GZ_UserCommit;
+			sourceTree = "<group>";
+		};
+		99A59DA11D13546F000A9467 /* date picker */ = {
+			isa = PBXGroup;
+			children = (
+				99A59DA21D135488000A9467 /* GZ_DatePickerViewController.swift */,
+			);
+			name = "date picker";
+			sourceTree = "<group>";
+		};
+		99A59DA51D138D1F000A9467 /* subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9321D11B33D00819E27 /* GZ_CitiesFromParsingOperation.swift */,
+				996BE9341D11B44F00819E27 /* GZ_CitiesToParsingOperation.swift */,
+			);
+			name = subclasses;
+			sourceTree = "<group>";
+		};
+		99A65D1E1D115C5200769B34 = {
+			isa = PBXGroup;
+			children = (
+				99A65D291D115C5200769B34 /* Tutu iOS Test */,
+				99A65D411D115C5200769B34 /* Tutu iOS TestTests */,
+				99A65D4C1D115C5200769B34 /* Tutu iOS TestUITests */,
+				99A65D281D115C5200769B34 /* Products */,
+				F31E2BE026DBC49ACAE42628 /* Frameworks */,
+				AABD49DF532039999F9F5584 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		99A65D281D115C5200769B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D271D115C5200769B34 /* Tutu iOS Test.app */,
+				99A65D3E1D115C5200769B34 /* Tutu iOS TestTests.xctest */,
+				99A65D491D115C5200769B34 /* Tutu iOS TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A65D291D115C5200769B34 /* Tutu iOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				996BE92C1D11A45500819E27 /* data */,
+				99A65D601D11684000769B34 /* helper files */,
+				99A65D5E1D1167F500769B34 /* view controllers */,
+				99A65D5D1D1167E600769B34 /* custom views */,
+				99A65D2A1D115C5200769B34 /* AppDelegate.swift */,
+				99A65D2E1D115C5200769B34 /* Main.storyboard */,
+				99A65D341D115C5200769B34 /* Assets.xcassets */,
+				99A65D361D115C5200769B34 /* LaunchScreen.storyboard */,
+				99A65D391D115C5200769B34 /* Info.plist */,
+			);
+			path = "Tutu iOS Test";
+			sourceTree = "<group>";
+		};
+		99A65D411D115C5200769B34 /* Tutu iOS TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */,
+				99A65D441D115C5200769B34 /* Info.plist */,
+			);
+			path = "Tutu iOS TestTests";
+			sourceTree = "<group>";
+		};
+		99A65D4C1D115C5200769B34 /* Tutu iOS TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D4D1D115C5200769B34 /* Tutu_iOS_TestUITests.swift */,
+				99A65D4F1D115C5200769B34 /* Info.plist */,
+			);
+			path = "Tutu iOS TestUITests";
+			sourceTree = "<group>";
+		};
+		99A65D5B1D1167C100769B34 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				99A59D9A1D13322A000A9467 /* GZ_UserCommit */,
+				99A59D911D131C1D000A9467 /* GZ_MapPin */,
+				996BE9421D11C6DD00819E27 /* GZ_UserRequest */,
+				99A65D641D11839900769B34 /* GZ_Station */,
+				99A65D631D11839000769B34 /* GZ_City */,
+				99A65D311D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		99A65D5C1D1167C800769B34 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D6D1D11882F00769B34 /* GZ_CityManager.swift */,
+				99A59D9D1D1334D8000A9467 /* GZ_CommitManager.swift */,
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		99A65D5D1D1167E600769B34 /* custom views */ = {
+			isa = PBXGroup;
+			children = (
+				996BE9471D11F1D000819E27 /* stations list headers */,
+				996BE93F1D11BF0D00819E27 /* station cell */,
+			);
+			name = "custom views";
+			sourceTree = "<group>";
+		};
+		99A65D5E1D1167F500769B34 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99A59DA11D13546F000A9467 /* date picker */,
+				99A59D971D132FD9000A9467 /* station detail */,
+				99A59D961D132FD0000A9467 /* entry dialog */,
+				996BE93C1D11BDCD00819E27 /* stations list */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		99A65D5F1D11683200769B34 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				99A59DA51D138D1F000A9467 /* subclasses */,
+				996BE92A1D119C6D00819E27 /* GZ_CitiesParsingOperation.swift */,
+			);
+			name = operations;
+			sourceTree = "<group>";
+		};
+		99A65D601D11684000769B34 /* helper files */ = {
+			isa = PBXGroup;
+			children = (
+				99F653991D11FFA80028F745 /* Tutu iOS Test-Bridging-Header.h */,
+				99A59D941D132301000A9467 /* GZ_Const.swift */,
+				99A59D9F1D133D05000A9467 /* GZ_CalendarUtils.swift */,
+			);
+			name = "helper files";
+			sourceTree = "<group>";
+		};
+		99A65D631D11839000769B34 /* GZ_City */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D651D1183BF00769B34 /* GZ_City.swift */,
+				99A65D691D11853400769B34 /* GZ_CityFabric.swift */,
+			);
+			name = GZ_City;
+			sourceTree = "<group>";
+		};
+		99A65D641D11839900769B34 /* GZ_Station */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D671D11848700769B34 /* GZ_Station.swift */,
+				99A65D6B1D1186B800769B34 /* GZ_StationFabric.swift */,
+			);
+			name = GZ_Station;
+			sourceTree = "<group>";
+		};
+		99A65D711D118B6B00769B34 /* manipulation */ = {
+			isa = PBXGroup;
+			children = (
+				99A65D5F1D11683200769B34 /* operations */,
+				99A65D5C1D1167C800769B34 /* managers */,
+				99A65D6F1D118B5F00769B34 /* GZ_DATA_WRAPPER.swift */,
+			);
+			name = manipulation;
+			sourceTree = "<group>";
+		};
+		AABD49DF532039999F9F5584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA84A181A03022512CA5F6FD /* Pods-Tutu iOS Test.debug.xcconfig */,
+				394419813BC1AB7FF4B8C63A /* Pods-Tutu iOS Test.release.xcconfig */,
+				D1897148099661AF44162609 /* Pods-Tutu iOS TestTests.debug.xcconfig */,
+				8C1249B143B795E763ABF1CE /* Pods-Tutu iOS TestTests.release.xcconfig */,
+				9FB9823EC10FC19E6D9BAB22 /* Pods-Tutu iOS TestUITests.debug.xcconfig */,
+				5658091DB05B04125FA89FC9 /* Pods-Tutu iOS TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F31E2BE026DBC49ACAE42628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C115C5874289A95E5784553F /* Pods_Tutu_iOS_Test.framework */,
+				308A9725942E83E50DDA01C4 /* Pods_Tutu_iOS_TestTests.framework */,
+				8CF3D9A6F428C06AAB4DF0C1 /* Pods_Tutu_iOS_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A65D261D115C5200769B34 /* Tutu iOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A65D521D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS Test" */;
+			buildPhases = (
+				83770A07089825F8913D3DC7 /* [CP] Check Pods Manifest.lock */,
+				99A65D231D115C5200769B34 /* Sources */,
+				99A65D241D115C5200769B34 /* Frameworks */,
+				99A65D251D115C5200769B34 /* Resources */,
+				E3A70FD56EA2DA8C9A85AB1C /* [CP] Embed Pods Frameworks */,
+				DD1BA576DB9B4102AE09D1F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutu iOS Test";
+			productName = "Tutu iOS Test";
+			productReference = 99A65D271D115C5200769B34 /* Tutu iOS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99A65D3D1D115C5200769B34 /* Tutu iOS TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A65D551D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS TestTests" */;
+			buildPhases = (
+				E8EC31E1E56A731359FCAC81 /* [CP] Check Pods Manifest.lock */,
+				99A65D3A1D115C5200769B34 /* Sources */,
+				99A65D3B1D115C5200769B34 /* Frameworks */,
+				99A65D3C1D115C5200769B34 /* Resources */,
+				5A197EED300AFDBF943644E5 /* [CP] Embed Pods Frameworks */,
+				CC058E85CFE643981E060AAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A65D401D115C5200769B34 /* PBXTargetDependency */,
+			);
+			name = "Tutu iOS TestTests";
+			productName = "Tutu iOS TestTests";
+			productReference = 99A65D3E1D115C5200769B34 /* Tutu iOS TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99A65D481D115C5200769B34 /* Tutu iOS TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A65D581D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS TestUITests" */;
+			buildPhases = (
+				865A674952EA68D9A5483601 /* [CP] Check Pods Manifest.lock */,
+				99A65D451D115C5200769B34 /* Sources */,
+				99A65D461D115C5200769B34 /* Frameworks */,
+				99A65D471D115C5200769B34 /* Resources */,
+				05AD5F93EDF968F5012B6FFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A65D4B1D115C5200769B34 /* PBXTargetDependency */,
+			);
+			name = "Tutu iOS TestUITests";
+			productName = "Tutu iOS TestUITests";
+			productReference = 99A65D491D115C5200769B34 /* Tutu iOS TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A65D1F1D115C5200769B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "George Zinyakov";
+				TargetAttributes = {
+					99A65D261D115C5200769B34 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					99A65D3D1D115C5200769B34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 99A65D261D115C5200769B34;
+					};
+					99A65D481D115C5200769B34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 99A65D261D115C5200769B34;
+					};
+				};
+			};
+			buildConfigurationList = 99A65D221D115C5200769B34 /* Build configuration list for PBXProject "Tutu iOS Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A65D1E1D115C5200769B34;
+			productRefGroup = 99A65D281D115C5200769B34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A65D261D115C5200769B34 /* Tutu iOS Test */,
+				99A65D3D1D115C5200769B34 /* Tutu iOS TestTests */,
+				99A65D481D115C5200769B34 /* Tutu iOS TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A65D251D115C5200769B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996BE94F1D11F46E00819E27 /* GZ_CountryHeaderView.xib in Resources */,
+				99A59D901D121642000A9467 /* citiesTo.json in Resources */,
+				99A65D381D115C5200769B34 /* LaunchScreen.storyboard in Resources */,
+				99A65D351D115C5200769B34 /* Assets.xcassets in Resources */,
+				99A59D8F1D121642000A9467 /* citiesFrom.json in Resources */,
+				99A65D301D115C5200769B34 /* Main.storyboard in Resources */,
+				996BE9411D11BF2D00819E27 /* GZ_StationTableViewCell.xib in Resources */,
+				996BE94B1D11F23800819E27 /* GZ_CityHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D3C1D115C5200769B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D471D115C5200769B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AD5F93EDF968F5012B6FFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutu iOS TestUITests/Pods-Tutu iOS TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A197EED300AFDBF943644E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83770A07089825F8913D3DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		865A674952EA68D9A5483601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC058E85CFE643981E060AAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1BA576DB9B4102AE09D1F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A70FD56EA2DA8C9A85AB1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8EC31E1E56A731359FCAC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A65D231D115C5200769B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A65D6A1D11853400769B34 /* GZ_CityFabric.swift in Sources */,
+				99A65D681D11848700769B34 /* GZ_Station.swift in Sources */,
+				99A59D951D132301000A9467 /* GZ_Const.swift in Sources */,
+				996BE92B1D119C6D00819E27 /* GZ_CitiesParsingOperation.swift in Sources */,
+				99A65D661D1183BF00769B34 /* GZ_City.swift in Sources */,
+				996BE9371D11B88200819E27 /* GZ_EntryDialogViewController.swift in Sources */,
+				996BE94D1D11F31300819E27 /* GZ_CityHeaderView.swift in Sources */,
+				99A59D991D133223000A9467 /* GZ_UserCommit.swift in Sources */,
+				996BE9331D11B33D00819E27 /* GZ_CitiesFromParsingOperation.swift in Sources */,
+				996BE9391D11BC4B00819E27 /* GZ_StationsTableViewController.swift in Sources */,
+				996BE93E1D11BE0400819E27 /* GZ_StationsTableViewStack.swift in Sources */,
+				99A65D331D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld in Sources */,
+				996BE9351D11B44F00819E27 /* GZ_CitiesToParsingOperation.swift in Sources */,
+				99A59D931D131C3B000A9467 /* GZ_MapPin.swift in Sources */,
+				99A59DA01D133D05000A9467 /* GZ_CalendarUtils.swift in Sources */,
+				99A65D2B1D115C5200769B34 /* AppDelegate.swift in Sources */,
+				996BE9511D11F4C600819E27 /* GZ_CountryHeaderView.swift in Sources */,
+				99A59DA31D135488000A9467 /* GZ_DatePickerViewController.swift in Sources */,
+				99A65D6C1D1186B800769B34 /* GZ_StationFabric.swift in Sources */,
+				996BE93B1D11BC9800819E27 /* GZ_StationDetailViewController.swift in Sources */,
+				99A59D9C1D13327A000A9467 /* GZ_UserCommitFabric.swift in Sources */,
+				996BE9441D11C6F800819E27 /* GZ_UserRequest.swift in Sources */,
+				996BE9461D11EBDA00819E27 /* GZ_StationTableViewCell.swift in Sources */,
+				99A59D9E1D1334D8000A9467 /* GZ_CommitManager.swift in Sources */,
+				99A65D701D118B5F00769B34 /* GZ_DATA_WRAPPER.swift in Sources */,
+				99A65D6E1D11882F00769B34 /* GZ_CityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D3A1D115C5200769B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A65D431D115C5200769B34 /* Tutu_iOS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A65D451D115C5200769B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A65D4E1D115C5200769B34 /* Tutu_iOS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A65D401D115C5200769B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A65D261D115C5200769B34 /* Tutu iOS Test */;
+			targetProxy = 99A65D3F1D115C5200769B34 /* PBXContainerItemProxy */;
+		};
+		99A65D4B1D115C5200769B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A65D261D115C5200769B34 /* Tutu iOS Test */;
+			targetProxy = 99A65D4A1D115C5200769B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99A65D2E1D115C5200769B34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A65D2F1D115C5200769B34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99A65D361D115C5200769B34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A65D371D115C5200769B34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A65D501D115C5200769B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99A65D511D115C5200769B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A65D531D115C5200769B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA84A181A03022512CA5F6FD /* Pods-Tutu iOS Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Tutu iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tutu iOS Test/Tutu iOS Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99A65D541D115C5200769B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394419813BC1AB7FF4B8C63A /* Pods-Tutu iOS Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Tutu iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tutu iOS Test/Tutu iOS Test-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		99A65D561D115C5200769B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1897148099661AF44162609 /* Pods-Tutu iOS TestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tutu iOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutu iOS Test.app/Tutu iOS Test";
+			};
+			name = Debug;
+		};
+		99A65D571D115C5200769B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1249B143B795E763ABF1CE /* Pods-Tutu iOS TestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tutu iOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutu iOS Test.app/Tutu iOS Test";
+			};
+			name = Release;
+		};
+		99A65D591D115C5200769B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB9823EC10FC19E6D9BAB22 /* Pods-Tutu iOS TestUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Tutu iOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tutu iOS Test";
+			};
+			name = Debug;
+		};
+		99A65D5A1D115C5200769B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5658091DB05B04125FA89FC9 /* Pods-Tutu iOS TestUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Tutu iOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zinyakov.Tutu-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tutu iOS Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A65D221D115C5200769B34 /* Build configuration list for PBXProject "Tutu iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A65D501D115C5200769B34 /* Debug */,
+				99A65D511D115C5200769B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A65D521D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A65D531D115C5200769B34 /* Debug */,
+				99A65D541D115C5200769B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A65D551D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A65D561D115C5200769B34 /* Debug */,
+				99A65D571D115C5200769B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A65D581D115C5200769B34 /* Build configuration list for PBXNativeTarget "Tutu iOS TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A65D591D115C5200769B34 /* Debug */,
+				99A65D5A1D115C5200769B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99A65D311D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99A65D321D115C5200769B34 /* Tutu_iOS_Test.xcdatamodel */,
+			);
+			currentVersion = 99A65D321D115C5200769B34 /* Tutu_iOS_Test.xcdatamodel */;
+			path = Tutu_iOS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99A65D1F1D115C5200769B34 /* Project object */;
+}

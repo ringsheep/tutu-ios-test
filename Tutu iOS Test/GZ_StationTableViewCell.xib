@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stationTableViewCell" id="WsI-bj-wEb" customClass="GZ_StationTableViewCell" customModule="Tutu_iOS_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WsI-bj-wEb" id="HPf-al-gjQ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpA-kT-Dbd">
+                        <rect key="frame" x="20" y="13.5" width="280" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KpA-kT-Dbd" firstAttribute="centerY" secondItem="HPf-al-gjQ" secondAttribute="centerY" id="3Il-qA-olu"/>
+                    <constraint firstAttribute="trailing" secondItem="KpA-kT-Dbd" secondAttribute="trailing" constant="20" id="bo1-Hr-3av"/>
+                    <constraint firstItem="KpA-kT-Dbd" firstAttribute="leading" secondItem="HPf-al-gjQ" secondAttribute="leading" constant="20" id="h1X-ZQ-tLY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="stationTitleLabel" destination="KpA-kT-Dbd" id="Tbj-vz-kkv"/>
+            </connections>
+            <point key="canvasLocation" x="402" y="376"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0379302F37B76769E100BF3768F6B3B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		07596F2558DB516A2E90B7D1A6A4242B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		0EDB742D7A76A218359ABFD58EC71C78 /* Pods-Tutu iOS Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB418D8D46B1B825FE2F57D0B8A876 /* Pods-Tutu iOS Test-dummy.m */; };
+		134071B27E6B38359CA430A7C81E7F98 /* RSDFDatePickerMonthHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9B016947E4DD5680BDD857F2608E78 /* RSDFDatePickerMonthHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B920D03597566698050CA28A4B005A /* RSDFDatePickerCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58076763FFDD565D39CE658E92ABD1C0 /* RSDFDatePickerCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D28802B2AE6184E5D62476F7DAF77D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		1EDAC06DC75008819F62CC78DD2D6FED /* RSDayFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F30AEAE4546B1B8C655CBC7F926A8122 /* RSDayFlow-dummy.m */; };
+		300FAFC8E947D277E11916EE886DC13A /* RSDFDatePickerCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA7E5EE9124C5FFDC87A6D1C0D83422 /* RSDFDatePickerCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F68B70EE98F4D468BD89EE57B04172 /* RSDFDatePickerDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58603D7AB2BE7824091C25090947CBC2 /* RSDFDatePickerDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378D60FEDB44E246733A55CB4BE73F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		583078A8C5F1A9782ACED6D83F6210C5 /* Pods-Tutu iOS TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480C9BF0ADC76730B862E39B3C676753 /* Pods-Tutu iOS TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59010F18598B478BC93F1F7E1F462536 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FECE5C60249F9CCF82F012EAE9D419A1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B9DE52F5A59C2AAF27AA07102AED4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		670F845346019A6B15A4AE806468B6E4 /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EA3E4A4D91AA1B003F5264E1829C9F /* RSDFDatePickerDaysOfWeekView.m */; };
+		77EBF5C7268A35BECB7A3B722A1A8037 /* Pods-Tutu iOS TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ADC5F585E3A27D47E8ADDABB3E4D7 /* Pods-Tutu iOS TestUITests-dummy.m */; };
+		78C0C74D5596440D89B5DC0866D9DB0D /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53F43D13E365E462E609AD5B49AF7 /* RSDFDatePickerView.m */; };
+		7CBACEDB587C1B55F435DBF4E260A80F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D387258C1BC1E4E954F2F01D1AA0B42A /* SwiftyJSON-dummy.m */; };
+		8012F7F8A26C43214B6AD5CA19C6B61C /* Pods-Tutu iOS TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3657D6F97EDD9EC7BB223077E552253A /* Pods-Tutu iOS TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845C4400C847E6C68A2836588E0AB217 /* RSDFDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE251C24A287EC358464E2625FDAA1 /* RSDFDatePickerCollectionViewLayout.m */; };
+		8C864E2F65247B883DF3B16D50797A8E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7215645E33F1647C161B3629C8B533 /* SwiftyJSON.swift */; };
+		8CB69CCD2F9198E900FE71FCF3F14564 /* RSDFDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E71523CA71F5548A4FE6D4E7A10B9B91 /* RSDFDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E73E0C891A4A05328CF2B95D18CB583 /* RSDFDatePickerDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD21635008FBC82B5C018C22F5FCAFA9 /* RSDFDatePickerDayCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A5F5606B74C8C0F17817A08704B8D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		9ABBE8E978FAD4B169AD4381CC499A5F /* RSDFDatePickerDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC245A5C21781B0377093A2A95F8C7E9 /* RSDFDatePickerDayCell.m */; };
+		A885C3003F24069FB9B6EFB5E1921E9D /* RSDFDatePickerView+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE50684FADBF1F0E7658F007B668DB /* RSDFDatePickerView+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA59E257614DC019FAF2A7F1B922A88 /* Pods-Tutu iOS TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC6EF10A08D8B0240B0BD465754F77 /* Pods-Tutu iOS TestTests-dummy.m */; };
+		B5D9707AF98EBED132FFC65CC3C6B6E0 /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D750A251A97B1AB8CF2064222AFECE4 /* RSDFDatePickerMonthHeader.m */; };
+		B6961C6DF1BF6F26C91DE80AE2E26932 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4CAA21C7B8D235EE809BE4F9881074 /* RSDFDatePickerCollectionView.m */; };
+		BC01E52A677389F6E6674D5D574F3046 /* RSDayFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2673A034E9621FEF53B1187DE8C0A1 /* RSDayFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7418A622ED81892DB89FFF089D371D4 /* RSDFDatePickerDaysOfWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A72BE1A3E57429BB199C427EFC83D1 /* RSDFDatePickerDaysOfWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB07803197810A8DB6886606BE4EE6CD /* Pods-Tutu iOS Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2923FAE2EBF74FFF30B0FE942F72BA22 /* Pods-Tutu iOS Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D37B747AFC42CCC08C21360A4B932677 /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E286605F012D35357E42B701267589 /* NSCalendar+RSDFAdditions.m */; };
+		F04F8141DDBB7A42824E70EED46C778E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		FCB9C3EB7285606D57A8D96174125CCC /* NSCalendar+RSDFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D63C0E393BDC4A8A2D7F715E6835CCEE /* NSCalendar+RSDFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0671AA3339D6880D517AFB6BF331C225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC81EEF3EA1891EB2F9E309E4FE66EE;
+			remoteInfo = SwiftyJSON;
+		};
+		118A3C05C53EDA35AC15B32DB36C489F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C5E04754E15687517BF911954FFD25;
+			remoteInfo = RSDayFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077C485AC3AB519187BC20C73B728DD9 /* Pods-Tutu iOS TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		0867155F58AD653BB2422BA893FFB0F7 /* Pods-Tutu iOS TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tutu iOS TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08C4E1F73685F5E34ABA461E496CE9BF /* Pods-Tutu iOS TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tutu iOS TestUITests.modulemap"; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2653AACB99BEDEED7E4C712A66A11841 /* Pods-Tutu iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		26AC65D098521A06D56FAE6509C2D056 /* Pods_Tutu_iOS_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE251C24A287EC358464E2625FDAA1 /* RSDFDatePickerCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerCollectionViewLayout.m; path = RSDayFlow/RSDFDatePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		2923FAE2EBF74FFF30B0FE942F72BA22 /* Pods-Tutu iOS Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tutu iOS Test-umbrella.h"; sourceTree = "<group>"; };
+		2E028153A3140A74E8264DA030AA551F /* Pods-Tutu iOS TestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS TestTests-frameworks.sh"; sourceTree = "<group>"; };
+		3289C9E798B2AD6485C5E83EA4222655 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		3657D6F97EDD9EC7BB223077E552253A /* Pods-Tutu iOS TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tutu iOS TestTests-umbrella.h"; sourceTree = "<group>"; };
+		397011E3316B98ACFDD760BEC5260E9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9B016947E4DD5680BDD857F2608E78 /* RSDFDatePickerMonthHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerMonthHeader.h; path = RSDayFlow/RSDFDatePickerMonthHeader.h; sourceTree = "<group>"; };
+		3C8A03EC706E37DC052CF8187D134D77 /* RSDayFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSDayFlow-prefix.pch"; sourceTree = "<group>"; };
+		44088492B87718711DBF26062368DF71 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		480C9BF0ADC76730B862E39B3C676753 /* Pods-Tutu iOS TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tutu iOS TestUITests-umbrella.h"; sourceTree = "<group>"; };
+		57E53F43D13E365E462E609AD5B49AF7 /* RSDFDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerView.m; path = RSDayFlow/RSDFDatePickerView.m; sourceTree = "<group>"; };
+		58076763FFDD565D39CE658E92ABD1C0 /* RSDFDatePickerCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerCollectionView.h; path = RSDayFlow/RSDFDatePickerCollectionView.h; sourceTree = "<group>"; };
+		58603D7AB2BE7824091C25090947CBC2 /* RSDFDatePickerDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDate.h; path = RSDayFlow/RSDFDatePickerDate.h; sourceTree = "<group>"; };
+		64492E513B67E224EDE0CE75E0F15391 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683C53DCCEB84CFC103ED6645E8BDDE5 /* Pods-Tutu iOS TestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS TestTests-resources.sh"; sourceTree = "<group>"; };
+		685CB781E3006CEA661A86E50BCE30D3 /* RSDayFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RSDayFlow.modulemap; sourceTree = "<group>"; };
+		6BA2B1A279B4FD27413F29C525F5B98A /* Pods-Tutu iOS Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS Test-resources.sh"; sourceTree = "<group>"; };
+		729F66DF83966FB28BE9E31CF5E56CD4 /* Pods_Tutu_iOS_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A72BE1A3E57429BB199C427EFC83D1 /* RSDFDatePickerDaysOfWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDaysOfWeekView.h; path = RSDayFlow/RSDFDatePickerDaysOfWeekView.h; sourceTree = "<group>"; };
+		7D750A251A97B1AB8CF2064222AFECE4 /* RSDFDatePickerMonthHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerMonthHeader.m; path = RSDayFlow/RSDFDatePickerMonthHeader.m; sourceTree = "<group>"; };
+		7DBB73A4EBB0A1741A840A2978C9E0A8 /* RSDayFlow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSDayFlow.xcconfig; sourceTree = "<group>"; };
+		7EF90755362A90A10D460F0E8224CE2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0AD338700F5E482217DEDEE373D30D /* Pods-Tutu iOS TestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS TestUITests-resources.sh"; sourceTree = "<group>"; };
+		851907EDB254E6DCC4288C669A04FE79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EED69B82A8279C23205E7BBC1D30AB /* Pods-Tutu iOS TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tutu iOS TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A4BE212D2D191F025A365AA21E5FF18 /* Pods-Tutu iOS TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A80E95980006180A69AE7A851C9B552 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDC6EF10A08D8B0240B0BD465754F77 /* Pods-Tutu iOS TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tutu iOS TestTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966BD4EE46CFAD79EC4BD9E2F86CC47A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFE50684FADBF1F0E7658F007B668DB /* RSDFDatePickerView+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSDFDatePickerView+Protected.h"; path = "RSDayFlow/RSDFDatePickerView+Protected.h"; sourceTree = "<group>"; };
+		A7E286605F012D35357E42B701267589 /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+RSDFAdditions.m"; path = "RSDayFlow/NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AAB7983EAC1DFE507E6B2AE12697FEEB /* Pods-Tutu iOS Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tutu iOS Test.modulemap"; sourceTree = "<group>"; };
+		AC245A5C21781B0377093A2A95F8C7E9 /* RSDFDatePickerDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerDayCell.m; path = RSDayFlow/RSDFDatePickerDayCell.m; sourceTree = "<group>"; };
+		ACEAAC4B3021A4D5AA6B1EA1CE217E2D /* Pods-Tutu iOS TestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS TestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		ADA7E5EE9124C5FFDC87A6D1C0D83422 /* RSDFDatePickerCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerCollectionViewLayout.h; path = RSDayFlow/RSDFDatePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		AFDB418D8D46B1B825FE2F57D0B8A876 /* Pods-Tutu iOS Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tutu iOS Test-dummy.m"; sourceTree = "<group>"; };
+		B9EA3E4A4D91AA1B003F5264E1829C9F /* RSDFDatePickerDaysOfWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerDaysOfWeekView.m; path = RSDayFlow/RSDFDatePickerDaysOfWeekView.m; sourceTree = "<group>"; };
+		BA3ADB8228893E4480DC2DE34E318ED3 /* RSDayFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSDayFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4CAA21C7B8D235EE809BE4F9881074 /* RSDFDatePickerCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerCollectionView.m; path = RSDayFlow/RSDFDatePickerCollectionView.m; sourceTree = "<group>"; };
+		C1B4527931F944E924FF06832B3ACC3C /* Pods-Tutu iOS Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tutu iOS Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		C27ADC5F585E3A27D47E8ADDABB3E4D7 /* Pods-Tutu iOS TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tutu iOS TestUITests-dummy.m"; sourceTree = "<group>"; };
+		C3EA9CF93FA5D3042C25ED3F3D4B36BB /* Pods-Tutu iOS Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tutu iOS Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C56F4DAA9A962FE013CC0C74A755BEFC /* Pods-Tutu iOS TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tutu iOS TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7333E83A30A19822B3A92107C7C974F /* Pods-Tutu iOS TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tutu iOS TestTests.modulemap"; sourceTree = "<group>"; };
+		CC7215645E33F1647C161B3629C8B533 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		CE0B5CB455F8768A7919595369CA5DC3 /* Pods-Tutu iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		CEE126BD06F9D61216A3C898C3568AA7 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		D302EF1462B7AFEC3DE21CDD9A0BC633 /* Pods-Tutu iOS TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D387258C1BC1E4E954F2F01D1AA0B42A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		D63C0E393BDC4A8A2D7F715E6835CCEE /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+RSDFAdditions.h"; path = "RSDayFlow/NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
+		DD5062CA17DD99CF3CE5765BB4089CFE /* Pods_Tutu_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutu_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2673A034E9621FEF53B1187DE8C0A1 /* RSDayFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDayFlow.h; path = RSDayFlow/RSDayFlow.h; sourceTree = "<group>"; };
+		E71523CA71F5548A4FE6D4E7A10B9B91 /* RSDFDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerView.h; path = RSDayFlow/RSDFDatePickerView.h; sourceTree = "<group>"; };
+		E760FC1088A50EFBEAE4F461D9BADB3A /* Pods-Tutu iOS Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tutu iOS Test-frameworks.sh"; sourceTree = "<group>"; };
+		F30AEAE4546B1B8C655CBC7F926A8122 /* RSDayFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSDayFlow-dummy.m"; sourceTree = "<group>"; };
+		FAAE153869121B8BC275E0D7CD7616C1 /* Pods-Tutu iOS TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tutu iOS TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7D90495C2404255EFA95CC2B530DA7 /* Pods-Tutu iOS TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tutu iOS TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD21635008FBC82B5C018C22F5FCAFA9 /* RSDFDatePickerDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDayCell.h; path = RSDayFlow/RSDFDatePickerDayCell.h; sourceTree = "<group>"; };
+		FECE5C60249F9CCF82F012EAE9D419A1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A292ED354C54905FF8FFCBE10E3DD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07596F2558DB516A2E90B7D1A6A4242B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75606DEE4133F9E4C1D5E7CE24812959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A5F5606B74C8C0F17817A08704B8D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7875226961707D6F11C9E16DC82C5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04F8141DDBB7A42824E70EED46C778E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB19761AE591E67D927250E1914A961B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9DE52F5A59C2AAF27AA07102AED4F4 /* Foundation.framework in Frameworks */,
+				0379302F37B76769E100BF3768F6B3B3 /* QuartzCore.framework in Frameworks */,
+				1D28802B2AE6184E5D62476F7DAF77D8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB70D50E4A8C310561FBDEB0224D67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D60FEDB44E246733A55CB4BE73F90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AF12D8715D4F5C992E8EB8AE798057F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5062CA17DD99CF3CE5765BB4089CFE /* Pods_Tutu_iOS_Test.framework */,
+				26AC65D098521A06D56FAE6509C2D056 /* Pods_Tutu_iOS_TestTests.framework */,
+				729F66DF83966FB28BE9E31CF5E56CD4 /* Pods_Tutu_iOS_TestUITests.framework */,
+				BA3ADB8228893E4480DC2DE34E318ED3 /* RSDayFlow.framework */,
+				8A80E95980006180A69AE7A851C9B552 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495FB70D22C322905F97F2B120728241 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51DD58F1982E83234AEEF71D26C4709 /* Pods-Tutu iOS Test */,
+				BABE0E8B1F7942DC5D0EC2AFB7B2DDC3 /* Pods-Tutu iOS TestTests */,
+				E552627B2C2C644D173EEE960AAA1CD2 /* Pods-Tutu iOS TestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75BE0F4E0B26993914A34510C634F735 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CC7215645E33F1647C161B3629C8B533 /* SwiftyJSON.swift */,
+				C6E327E6E9F3F76C392474560E18CB49 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				C1BC3B0054E024C2517F0165E05A5508 /* Pods */,
+				1AF12D8715D4F5C992E8EB8AE798057F /* Products */,
+				495FB70D22C322905F97F2B120728241 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BABE0E8B1F7942DC5D0EC2AFB7B2DDC3 /* Pods-Tutu iOS TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF90755362A90A10D460F0E8224CE2D /* Info.plist */,
+				C7333E83A30A19822B3A92107C7C974F /* Pods-Tutu iOS TestTests.modulemap */,
+				0867155F58AD653BB2422BA893FFB0F7 /* Pods-Tutu iOS TestTests-acknowledgements.markdown */,
+				88EED69B82A8279C23205E7BBC1D30AB /* Pods-Tutu iOS TestTests-acknowledgements.plist */,
+				8FDC6EF10A08D8B0240B0BD465754F77 /* Pods-Tutu iOS TestTests-dummy.m */,
+				2E028153A3140A74E8264DA030AA551F /* Pods-Tutu iOS TestTests-frameworks.sh */,
+				683C53DCCEB84CFC103ED6645E8BDDE5 /* Pods-Tutu iOS TestTests-resources.sh */,
+				3657D6F97EDD9EC7BB223077E552253A /* Pods-Tutu iOS TestTests-umbrella.h */,
+				D302EF1462B7AFEC3DE21CDD9A0BC633 /* Pods-Tutu iOS TestTests.debug.xcconfig */,
+				077C485AC3AB519187BC20C73B728DD9 /* Pods-Tutu iOS TestTests.release.xcconfig */,
+			);
+			name = "Pods-Tutu iOS TestTests";
+			path = "Target Support Files/Pods-Tutu iOS TestTests";
+			sourceTree = "<group>";
+		};
+		BD789C2CA91D7A29FF0B31236658A416 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				397011E3316B98ACFDD760BEC5260E9F /* Info.plist */,
+				685CB781E3006CEA661A86E50BCE30D3 /* RSDayFlow.modulemap */,
+				7DBB73A4EBB0A1741A840A2978C9E0A8 /* RSDayFlow.xcconfig */,
+				F30AEAE4546B1B8C655CBC7F926A8122 /* RSDayFlow-dummy.m */,
+				3C8A03EC706E37DC052CF8187D134D77 /* RSDayFlow-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSDayFlow";
+			sourceTree = "<group>";
+		};
+		C1BC3B0054E024C2517F0165E05A5508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAC35022DFDB0013584B9BFAC7E79E8C /* RSDayFlow */,
+				75BE0F4E0B26993914A34510C634F735 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C51DD58F1982E83234AEEF71D26C4709 /* Pods-Tutu iOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				851907EDB254E6DCC4288C669A04FE79 /* Info.plist */,
+				AAB7983EAC1DFE507E6B2AE12697FEEB /* Pods-Tutu iOS Test.modulemap */,
+				C3EA9CF93FA5D3042C25ED3F3D4B36BB /* Pods-Tutu iOS Test-acknowledgements.markdown */,
+				C1B4527931F944E924FF06832B3ACC3C /* Pods-Tutu iOS Test-acknowledgements.plist */,
+				AFDB418D8D46B1B825FE2F57D0B8A876 /* Pods-Tutu iOS Test-dummy.m */,
+				E760FC1088A50EFBEAE4F461D9BADB3A /* Pods-Tutu iOS Test-frameworks.sh */,
+				6BA2B1A279B4FD27413F29C525F5B98A /* Pods-Tutu iOS Test-resources.sh */,
+				2923FAE2EBF74FFF30B0FE942F72BA22 /* Pods-Tutu iOS Test-umbrella.h */,
+				2653AACB99BEDEED7E4C712A66A11841 /* Pods-Tutu iOS Test.debug.xcconfig */,
+				CE0B5CB455F8768A7919595369CA5DC3 /* Pods-Tutu iOS Test.release.xcconfig */,
+			);
+			name = "Pods-Tutu iOS Test";
+			path = "Target Support Files/Pods-Tutu iOS Test";
+			sourceTree = "<group>";
+		};
+		C6E327E6E9F3F76C392474560E18CB49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				966BD4EE46CFAD79EC4BD9E2F86CC47A /* Info.plist */,
+				44088492B87718711DBF26062368DF71 /* SwiftyJSON.modulemap */,
+				3289C9E798B2AD6485C5E83EA4222655 /* SwiftyJSON.xcconfig */,
+				D387258C1BC1E4E954F2F01D1AA0B42A /* SwiftyJSON-dummy.m */,
+				CEE126BD06F9D61216A3C898C3568AA7 /* SwiftyJSON-prefix.pch */,
+				FECE5C60249F9CCF82F012EAE9D419A1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		CAC35022DFDB0013584B9BFAC7E79E8C /* RSDayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				D63C0E393BDC4A8A2D7F715E6835CCEE /* NSCalendar+RSDFAdditions.h */,
+				A7E286605F012D35357E42B701267589 /* NSCalendar+RSDFAdditions.m */,
+				DF2673A034E9621FEF53B1187DE8C0A1 /* RSDayFlow.h */,
+				58076763FFDD565D39CE658E92ABD1C0 /* RSDFDatePickerCollectionView.h */,
+				BE4CAA21C7B8D235EE809BE4F9881074 /* RSDFDatePickerCollectionView.m */,
+				ADA7E5EE9124C5FFDC87A6D1C0D83422 /* RSDFDatePickerCollectionViewLayout.h */,
+				28AE251C24A287EC358464E2625FDAA1 /* RSDFDatePickerCollectionViewLayout.m */,
+				58603D7AB2BE7824091C25090947CBC2 /* RSDFDatePickerDate.h */,
+				FD21635008FBC82B5C018C22F5FCAFA9 /* RSDFDatePickerDayCell.h */,
+				AC245A5C21781B0377093A2A95F8C7E9 /* RSDFDatePickerDayCell.m */,
+				76A72BE1A3E57429BB199C427EFC83D1 /* RSDFDatePickerDaysOfWeekView.h */,
+				B9EA3E4A4D91AA1B003F5264E1829C9F /* RSDFDatePickerDaysOfWeekView.m */,
+				3A9B016947E4DD5680BDD857F2608E78 /* RSDFDatePickerMonthHeader.h */,
+				7D750A251A97B1AB8CF2064222AFECE4 /* RSDFDatePickerMonthHeader.m */,
+				E71523CA71F5548A4FE6D4E7A10B9B91 /* RSDFDatePickerView.h */,
+				57E53F43D13E365E462E609AD5B49AF7 /* RSDFDatePickerView.m */,
+				9FFE50684FADBF1F0E7658F007B668DB /* RSDFDatePickerView+Protected.h */,
+				BD789C2CA91D7A29FF0B31236658A416 /* Support Files */,
+			);
+			path = RSDayFlow;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E552627B2C2C644D173EEE960AAA1CD2 /* Pods-Tutu iOS TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64492E513B67E224EDE0CE75E0F15391 /* Info.plist */,
+				08C4E1F73685F5E34ABA461E496CE9BF /* Pods-Tutu iOS TestUITests.modulemap */,
+				FC7D90495C2404255EFA95CC2B530DA7 /* Pods-Tutu iOS TestUITests-acknowledgements.markdown */,
+				C56F4DAA9A962FE013CC0C74A755BEFC /* Pods-Tutu iOS TestUITests-acknowledgements.plist */,
+				C27ADC5F585E3A27D47E8ADDABB3E4D7 /* Pods-Tutu iOS TestUITests-dummy.m */,
+				ACEAAC4B3021A4D5AA6B1EA1CE217E2D /* Pods-Tutu iOS TestUITests-frameworks.sh */,
+				7F0AD338700F5E482217DEDEE373D30D /* Pods-Tutu iOS TestUITests-resources.sh */,
+				480C9BF0ADC76730B862E39B3C676753 /* Pods-Tutu iOS TestUITests-umbrella.h */,
+				FAAE153869121B8BC275E0D7CD7616C1 /* Pods-Tutu iOS TestUITests.debug.xcconfig */,
+				8A4BE212D2D191F025A365AA21E5FF18 /* Pods-Tutu iOS TestUITests.release.xcconfig */,
+			);
+			name = "Pods-Tutu iOS TestUITests";
+			path = "Target Support Files/Pods-Tutu iOS TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C02D463F3053CC0F611BC317D1632E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59010F18598B478BC93F1F7E1F462536 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12EFF465920365B10095846A773B1AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07803197810A8DB6886606BE4EE6CD /* Pods-Tutu iOS Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C00EFCC6AC737F6238D01B0F5F088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8012F7F8A26C43214B6AD5CA19C6B61C /* Pods-Tutu iOS TestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA599906FA49969005B8F7CD5D3026 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB9C3EB7285606D57A8D96174125CCC /* NSCalendar+RSDFAdditions.h in Headers */,
+				BC01E52A677389F6E6674D5D574F3046 /* RSDayFlow.h in Headers */,
+				17B920D03597566698050CA28A4B005A /* RSDFDatePickerCollectionView.h in Headers */,
+				300FAFC8E947D277E11916EE886DC13A /* RSDFDatePickerCollectionViewLayout.h in Headers */,
+				31F68B70EE98F4D468BD89EE57B04172 /* RSDFDatePickerDate.h in Headers */,
+				8E73E0C891A4A05328CF2B95D18CB583 /* RSDFDatePickerDayCell.h in Headers */,
+				C7418A622ED81892DB89FFF089D371D4 /* RSDFDatePickerDaysOfWeekView.h in Headers */,
+				134071B27E6B38359CA430A7C81E7F98 /* RSDFDatePickerMonthHeader.h in Headers */,
+				A885C3003F24069FB9B6EFB5E1921E9D /* RSDFDatePickerView+Protected.h in Headers */,
+				8CB69CCD2F9198E900FE71FCF3F14564 /* RSDFDatePickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17CD4ED24832DA35BE944EAA444967E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583078A8C5F1A9782ACED6D83F6210C5 /* Pods-Tutu iOS TestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00C5E04754E15687517BF911954FFD25 /* RSDayFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8025906ABE6EBFCB686B68E5B10F434A /* Build configuration list for PBXNativeTarget "RSDayFlow" */;
+			buildPhases = (
+				53F17202E50321E1CCCDFD9F98A5B402 /* Sources */,
+				AB19761AE591E67D927250E1914A961B /* Frameworks */,
+				CEEA599906FA49969005B8F7CD5D3026 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDayFlow;
+			productName = RSDayFlow;
+			productReference = BA3ADB8228893E4480DC2DE34E318ED3 /* RSDayFlow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9913951E159D15FAB1F34141D63997E2 /* Pods-Tutu iOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C961F4CD26B5C7BA63989E1C331D55 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS Test" */;
+			buildPhases = (
+				BF358888F3AD84E582ACD971790C63E0 /* Sources */,
+				1A292ED354C54905FF8FFCBE10E3DD12 /* Frameworks */,
+				B12EFF465920365B10095846A773B1AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECA566BF5A49C28E7F8D1D7DA9DF313 /* PBXTargetDependency */,
+				072258E95295AF68335D16F41DAD9C76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tutu iOS Test";
+			productName = "Pods-Tutu iOS Test";
+			productReference = DD5062CA17DD99CF3CE5765BB4089CFE /* Pods_Tutu_iOS_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B541117FDBAFF63274754E1DB8BBA436 /* Pods-Tutu iOS TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADB8E26462D7F3A173A4BC2FFC47913 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS TestUITests" */;
+			buildPhases = (
+				6F2C4DDF4AF353B28684DF7B5C212CD6 /* Sources */,
+				FFB70D50E4A8C310561FBDEB0224D67D /* Frameworks */,
+				E17CD4ED24832DA35BE944EAA444967E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tutu iOS TestUITests";
+			productName = "Pods-Tutu iOS TestUITests";
+			productReference = 729F66DF83966FB28BE9E31CF5E56CD4 /* Pods_Tutu_iOS_TestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAC81EEF3EA1891EB2F9E309E4FE66EE /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7FA462EDFB64F15ADD94D13A3BA567 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				DBCBBBAA1E184FD1E887FC649C0DAF44 /* Sources */,
+				A7875226961707D6F11C9E16DC82C5E3 /* Frameworks */,
+				1C02D463F3053CC0F611BC317D1632E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 8A80E95980006180A69AE7A851C9B552 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F29E9E8E909A8CC184088F11D8C4564B /* Pods-Tutu iOS TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD09E5E8277B3975E3FC2E796DF1735 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS TestTests" */;
+			buildPhases = (
+				E74E8AF305617FD993A202DC2EB384E8 /* Sources */,
+				75606DEE4133F9E4C1D5E7CE24812959 /* Frameworks */,
+				BE8C00EFCC6AC737F6238D01B0F5F088 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tutu iOS TestTests";
+			productName = "Pods-Tutu iOS TestTests";
+			productReference = 26AC65D098521A06D56FAE6509C2D056 /* Pods_Tutu_iOS_TestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1AF12D8715D4F5C992E8EB8AE798057F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9913951E159D15FAB1F34141D63997E2 /* Pods-Tutu iOS Test */,
+				F29E9E8E909A8CC184088F11D8C4564B /* Pods-Tutu iOS TestTests */,
+				B541117FDBAFF63274754E1DB8BBA436 /* Pods-Tutu iOS TestUITests */,
+				00C5E04754E15687517BF911954FFD25 /* RSDayFlow */,
+				BAC81EEF3EA1891EB2F9E309E4FE66EE /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F17202E50321E1CCCDFD9F98A5B402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37B747AFC42CCC08C21360A4B932677 /* NSCalendar+RSDFAdditions.m in Sources */,
+				1EDAC06DC75008819F62CC78DD2D6FED /* RSDayFlow-dummy.m in Sources */,
+				B6961C6DF1BF6F26C91DE80AE2E26932 /* RSDFDatePickerCollectionView.m in Sources */,
+				845C4400C847E6C68A2836588E0AB217 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
+				9ABBE8E978FAD4B169AD4381CC499A5F /* RSDFDatePickerDayCell.m in Sources */,
+				670F845346019A6B15A4AE806468B6E4 /* RSDFDatePickerDaysOfWeekView.m in Sources */,
+				B5D9707AF98EBED132FFC65CC3C6B6E0 /* RSDFDatePickerMonthHeader.m in Sources */,
+				78C0C74D5596440D89B5DC0866D9DB0D /* RSDFDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2C4DDF4AF353B28684DF7B5C212CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EBF5C7268A35BECB7A3B722A1A8037 /* Pods-Tutu iOS TestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF358888F3AD84E582ACD971790C63E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDB742D7A76A218359ABFD58EC71C78 /* Pods-Tutu iOS Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCBBBAA1E184FD1E887FC649C0DAF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBACEDB587C1B55F435DBF4E260A80F /* SwiftyJSON-dummy.m in Sources */,
+				8C864E2F65247B883DF3B16D50797A8E /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E8AF305617FD993A202DC2EB384E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA59E257614DC019FAF2A7F1B922A88 /* Pods-Tutu iOS TestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072258E95295AF68335D16F41DAD9C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = BAC81EEF3EA1891EB2F9E309E4FE66EE /* SwiftyJSON */;
+			targetProxy = 0671AA3339D6880D517AFB6BF331C225 /* PBXContainerItemProxy */;
+		};
+		3ECA566BF5A49C28E7F8D1D7DA9DF313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSDayFlow;
+			target = 00C5E04754E15687517BF911954FFD25 /* RSDayFlow */;
+			targetProxy = 118A3C05C53EDA35AC15B32DB36C489F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E508E558BB972BB95696291E5DB70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2653AACB99BEDEED7E4C712A66A11841 /* Pods-Tutu iOS Test.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B3243329413852D9C1D06183D128DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D302EF1462B7AFEC3DE21CDD9A0BC633 /* Pods-Tutu iOS TestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS TestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_TestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EEFFF04E87954961BBBBB5165B2A059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3289C9E798B2AD6485C5E83EA4222655 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BA2DDEF9C1184DD0A4CD92B0D939E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077C485AC3AB519187BC20C73B728DD9 /* Pods-Tutu iOS TestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS TestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS TestTests/Pods-Tutu iOS TestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_TestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DDBEAF3DEA65B60B3FC6FFBBC1BD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0B5CB455F8768A7919595369CA5DC3 /* Pods-Tutu iOS Test.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS Test/Pods-Tutu iOS Test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7E0CF0F61CD9D935D8893710998BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBB73A4EBB0A1741A840A2978C9E0A8 /* RSDayFlow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSDayFlow/RSDayFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSDayFlow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSDayFlow/RSDayFlow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSDayFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FD08B540F5702AC9B696D10EEF59E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3289C9E798B2AD6485C5E83EA4222655 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		950A40174BD7AA5699A6A006EACEC83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4BE212D2D191F025A365AA21E5FF18 /* Pods-Tutu iOS TestUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS TestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS TestUITests/Pods-Tutu iOS TestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_TestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E75FDB6732E1FDC15C1804B99819411A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAE153869121B8BC275E0D7CD7616C1 /* Pods-Tutu iOS TestUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tutu iOS TestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tutu iOS TestUITests/Pods-Tutu iOS TestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tutu_iOS_TestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD0E6A8AA8CEF1D699679A30BACFEBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBB73A4EBB0A1741A840A2978C9E0A8 /* RSDayFlow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSDayFlow/RSDayFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSDayFlow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSDayFlow/RSDayFlow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSDayFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7FA462EDFB64F15ADD94D13A3BA567 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD08B540F5702AC9B696D10EEF59E88 /* Debug */,
+				3EEFFF04E87954961BBBBB5165B2A059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADB8E26462D7F3A173A4BC2FFC47913 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75FDB6732E1FDC15C1804B99819411A /* Debug */,
+				950A40174BD7AA5699A6A006EACEC83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8025906ABE6EBFCB686B68E5B10F434A /* Build configuration list for PBXNativeTarget "RSDayFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7E0CF0F61CD9D935D8893710998BC /* Debug */,
+				FD0E6A8AA8CEF1D699679A30BACFEBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD09E5E8277B3975E3FC2E796DF1735 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3243329413852D9C1D06183D128DD1 /* Debug */,
+				7BA2DDEF9C1184DD0A4CD92B0D939E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C961F4CD26B5C7BA63989E1C331D55 /* Build configuration list for PBXNativeTarget "Pods-Tutu iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E508E558BB972BB95696291E5DB70D /* Debug */,
+				7DDBEAF3DEA65B60B3FC6FFBBC1BD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
