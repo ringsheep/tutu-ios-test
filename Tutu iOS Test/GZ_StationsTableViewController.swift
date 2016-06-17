@@ -17,7 +17,6 @@ class GZ_StationsTableViewController: UITableViewController
     var activityIndicator : UIActivityIndicatorView?
     var dimView : UIView?
     var dataIsParsing = false
-    var searchStarted = false
     var stationsSubstringFilter = ""
     var filteredStations = NSMutableDictionary()
     var selectedIndexPath:NSIndexPath?
@@ -322,17 +321,8 @@ extension GZ_StationsTableViewController: UISearchBarDelegate, UISearchControlle
             return
         }
         
-        if ( searchStarted == false )
-        {
-            self.searchStarted = true
-            let secondsToWait:Double = 2
-            let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(secondsToWait * Double(NSEC_PER_SEC)))
-            dispatch_after(delayTime, dispatch_get_main_queue()) {
-                self.stationsSubstringFilter = self.searchController.searchBar.text!
-                self.filterContentForSearchText(self.stationsSubstringFilter)
-                self.searchStarted = false
-            }
-        }
+        self.stationsSubstringFilter = self.searchController.searchBar.text!
+        self.filterContentForSearchText(self.stationsSubstringFilter)
     }
     
     // а также после нажатия кнопки поиска
