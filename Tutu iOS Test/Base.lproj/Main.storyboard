@@ -26,7 +26,7 @@
         <!--Entry Dialog View Controller-->
         <scene sceneID="Xem-Sv-hAH">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="CoI-Go-6If" customClass="GZ_EntryDialogViewController" customModule="Tutu_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GZ_EntryDialogViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CoI-Go-6If" customClass="GZ_EntryDialogViewController" customModule="Tutu_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ocJ-PF-Oll"/>
                         <viewControllerLayoutGuide type="bottom" id="Csf-1H-0wI"/>
@@ -368,7 +368,7 @@
         <!--Stations Table View Controller-->
         <scene sceneID="efE-cw-xZ7">
             <objects>
-                <tableViewController id="7xJ-3l-btY" customClass="GZ_StationsTableViewController" customModule="Tutu_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="GZ_StationsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7xJ-3l-btY" customClass="GZ_StationsTableViewController" customModule="Tutu_iOS_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="1" id="Ga0-tk-TGf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -21,21 +21,23 @@ class GZ_StationsTableViewController: UITableViewController
     var filteredStations = NSMutableDictionary()
     var selectedIndexPath:NSIndexPath?
     
+    // выносим контекст отдельно для удобства тестирования.
+    // по-хорошему нужно переделать и реализовать методы датасурса и FRC через отдельный объект, который будет назначаться в контроллере через делегат, и его протокол юзать в тестах
+    var managedObjectContext = (UIApplication.sharedApplication().delegate as! AppDelegate).citiesNonPersistentManagedObjectContext
+    
     let citiesCount = 10
     var citiesOffset = 0
     
     lazy var fetchedResultsController: NSFetchedResultsController =
         {
-            let managedObjectContext = (UIApplication.sharedApplication().delegate as! AppDelegate).citiesNonPersistentManagedObjectContext
-            
-            let entity = NSEntityDescription.entityForName("GZ_City", inManagedObjectContext: managedObjectContext)
+            let entity = NSEntityDescription.entityForName("GZ_City", inManagedObjectContext: self.managedObjectContext)
             let sortByCountry = NSSortDescriptor(key: "countryTitle", ascending: true)
             let sortByCity = NSSortDescriptor(key: "cityTitle", ascending: true)
             let req = NSFetchRequest()
             req.entity = entity
             req.sortDescriptors = [sortByCountry, sortByCity]
             
-            let aFetchedResultsController = NSFetchedResultsController(fetchRequest: req, managedObjectContext: managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
+            let aFetchedResultsController = NSFetchedResultsController(fetchRequest: req, managedObjectContext: self.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
             
             var e: NSError?
             do {
@@ -74,7 +76,7 @@ extension GZ_StationsTableViewController
 // MARK: - процедуры настройки представления
 extension GZ_StationsTableViewController
 {
-    private func setUpView()
+    func setUpView()
     {
         if (chosenRoute == route.From)
         {
@@ -91,7 +93,7 @@ extension GZ_StationsTableViewController
 // MARK: - процедуры настройки данных
 extension GZ_StationsTableViewController
 {
-    private func setUpData()
+    func setUpData()
     {
         guard (chosenRoute != nil ) else
         {

@@ -23,6 +23,7 @@
 		996BE94D1D11F31300819E27 /* GZ_CityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE94C1D11F31300819E27 /* GZ_CityHeaderView.swift */; };
 		996BE94F1D11F46E00819E27 /* GZ_CountryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996BE94E1D11F46E00819E27 /* GZ_CountryHeaderView.xib */; };
 		996BE9511D11F4C600819E27 /* GZ_CountryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BE9501D11F4C600819E27 /* GZ_CountryHeaderView.swift */; };
+		9987133D1D1751A40092E153 /* GZ_StationsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987133C1D1751A40092E153 /* GZ_StationsTableViewControllerTests.swift */; };
 		99A59D8F1D121642000A9467 /* citiesFrom.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A59D8D1D121642000A9467 /* citiesFrom.json */; };
 		99A59D901D121642000A9467 /* citiesTo.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A59D8E1D121642000A9467 /* citiesTo.json */; };
 		99A59D931D131C3B000A9467 /* GZ_MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A59D921D131C3B000A9467 /* GZ_MapPin.swift */; };
@@ -37,7 +38,6 @@
 		99A65D331D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D311D115C5200769B34 /* Tutu_iOS_Test.xcdatamodeld */; };
 		99A65D351D115C5200769B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A65D341D115C5200769B34 /* Assets.xcassets */; };
 		99A65D381D115C5200769B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A65D361D115C5200769B34 /* LaunchScreen.storyboard */; };
-		99A65D431D115C5200769B34 /* Tutu_iOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */; };
 		99A65D4E1D115C5200769B34 /* Tutu_iOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D4D1D115C5200769B34 /* Tutu_iOS_TestUITests.swift */; };
 		99A65D661D1183BF00769B34 /* GZ_City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D651D1183BF00769B34 /* GZ_City.swift */; };
 		99A65D681D11848700769B34 /* GZ_Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A65D671D11848700769B34 /* GZ_Station.swift */; };
@@ -85,6 +85,7 @@
 		996BE94C1D11F31300819E27 /* GZ_CityHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CityHeaderView.swift; sourceTree = "<group>"; };
 		996BE94E1D11F46E00819E27 /* GZ_CountryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZ_CountryHeaderView.xib; sourceTree = "<group>"; };
 		996BE9501D11F4C600819E27 /* GZ_CountryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_CountryHeaderView.swift; sourceTree = "<group>"; };
+		9987133C1D1751A40092E153 /* GZ_StationsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_StationsTableViewControllerTests.swift; sourceTree = "<group>"; };
 		99A59D8D1D121642000A9467 /* citiesFrom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = citiesFrom.json; path = data/citiesFrom.json; sourceTree = "<group>"; };
 		99A59D8E1D121642000A9467 /* citiesTo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = citiesTo.json; path = data/citiesTo.json; sourceTree = "<group>"; };
 		99A59D921D131C3B000A9467 /* GZ_MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZ_MapPin.swift; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		99A65D371D115C5200769B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99A65D391D115C5200769B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A65D3E1D115C5200769B34 /* Tutu iOS TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutu iOS TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutu_iOS_TestTests.swift; sourceTree = "<group>"; };
 		99A65D441D115C5200769B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A65D491D115C5200769B34 /* Tutu iOS TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutu iOS TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A65D4D1D115C5200769B34 /* Tutu_iOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutu_iOS_TestUITests.swift; sourceTree = "<group>"; };
@@ -311,8 +311,8 @@
 		99A65D411D115C5200769B34 /* Tutu iOS TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				99A65D421D115C5200769B34 /* Tutu_iOS_TestTests.swift */,
 				99A65D441D115C5200769B34 /* Info.plist */,
+				9987133C1D1751A40092E153 /* GZ_StationsTableViewControllerTests.swift */,
 			);
 			path = "Tutu iOS TestTests";
 			sourceTree = "<group>";
@@ -738,7 +738,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A65D431D115C5200769B34 /* Tutu_iOS_TestTests.swift in Sources */,
+				9987133D1D1751A40092E153 /* GZ_StationsTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,6 +874,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -893,6 +894,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
